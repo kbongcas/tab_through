@@ -1,10 +1,15 @@
 /**
- * Changes the display of a google search result and use
- * tab to cycle through the results.
+ * Sets tabindex(HTML5) priority to google search results.
  *
  * @module tab-through.js
+ * @author kbongcas
  */
 
 let result_set = document.getElementsByClassName("g");
-result_set[0].style['background-color'] = '#FF00FF';
+
+for (let i = 1; i <= result_set.length; i++){
+    result_set[i-1].setAttribute("tabindex", i.toString());
+}
+
+
 
