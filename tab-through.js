@@ -5,11 +5,8 @@
  * @author kbongcas
  */
 
-let result_set = document.getElementsByClassName("g");
+let result_set = document.getElementsByClassName("r");
 
-for (let i = 1; i <= result_set.length; i++){
-    result_set[i-1].setAttribute("tabindex", i.toString());
+for (let i = 1; i <= result_set.length; i++) {
+    result_set[i-1].getElementsByTagName("a")[0].setAttribute("tabindex", i.toString());
 }
-
-
-
