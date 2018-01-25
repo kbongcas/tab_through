@@ -7,8 +7,12 @@
             "matches": [
                 "https://www.google.com/search?*"
             ],
+            "css": ["style.css"],
             "js": ["tab-through.js"]
         }
-    ]
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    }
 }
 

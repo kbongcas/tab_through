@@ -1,0 +1,5 @@
+/* Color of Focused element*/
+:focus {
+    outline: none;
+    background-color: rgb(216, 231, 255)
+}
