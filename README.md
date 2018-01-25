@@ -1,3 +1,3 @@
 # tab_through
 
-$ A Chrome Extension
+Cycle through google search results using your tab key.
